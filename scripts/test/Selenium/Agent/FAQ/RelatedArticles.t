@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -18,7 +18,7 @@ my $Selenium = $Kernel::OM->Get('Kernel::System::UnitTest::Selenium');
 $Selenium->RunTest(
     sub {
 
-        # OTRSBusiness package is required for this test. Skip if it is not available.
+        # LIGEROBusiness package is required for this test. Skip if it is not available.
         my $BusinessInstalled = $Kernel::OM->Get('Kernel::System::Main')->Require(
             'Kernel::Output::HTML::FilterElementPost::FAQAgentRelatedArticles',
             Silent => 1
@@ -26,7 +26,7 @@ $Selenium->RunTest(
         if ( !$BusinessInstalled ) {
             $Self->True(
                 1,
-                "OTRSBusiness is not installed, skip this test."
+                "LIGEROBusiness is not installed, skip this test."
             );
             return 1;
         }
@@ -229,7 +229,7 @@ $Selenium->RunTest(
             'Widget is correctly positioned below richtext field.',
         );
 
-        # Test case for bug#12900 ( https://bugs.otrs.org/show_bug.cgi?id=12900 ).
+        # Test case for bug#12900 ( https://bugs.ligero.org/show_bug.cgi?id=12900 ).
         # Create new category which is subcategory of default 'Misc' category.
         my $RandomID      = $Helper->GetRandomID();
         my $SubCategoryID = $FAQObject->CategoryAdd(

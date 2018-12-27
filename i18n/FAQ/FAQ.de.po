@@ -1,27 +1,27 @@
 # 
 # Translators:
 # Antonius Klockenkämper, 2017
-# christopher.kuhn <christopher.kuhn@otrs.com>, 2018
+# christopher.kuhn <christopher.kuhn@ligero.com>, 2018
 # Ettore Atalan <atalanttore@googlemail.com>, 2014-2016
-# Harald Eisenmenger <harald.eisenmenger@otrs.com>, 2017
+# Harald Eisenmenger <harald.eisenmenger@ligero.com>, 2017
 # Jonas Kohls <Jonas.kohls@outlook.de>, 2016
 # eliasp <mail@eliasprobst.eu>, 2015
 # Mainboarder, 2014
 # mainboarder, 2014
-# Martin Gruner <martin.gruner@otrs.com>, 2014
-# mathiasbraeunling <mathias.braeunling@otrs.com>, 2015
+# Martin Gruner <martin.gruner@ligero.com>, 2014
+# mathiasbraeunling <mathias.braeunling@ligero.com>, 2015
 # Matthias Freitag, 2017
-# ru_otrs <robert.ullrich@otrs.com>, 2014-2015
+# ru_ligero <robert.ullrich@ligero.com>, 2014-2015
 # Rudy R <rudy.rohde@googlemail.com>, 2015
-# ru_otrs <robert.ullrich@otrs.com>, 2014
+# ru_ligero <robert.ullrich@ligero.com>, 2014
 # Stefan Hagl <stefan.hagl@gmx.at>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: OTRS\n"
+"Project-Id-Version: LIGERO\n"
 "POT-Creation-Date: 2018-11-05 19:59+0000\n"
 "PO-Revision-Date: 2018-11-05 20:00+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
-"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
+"Last-Translator: Martin Gruner <martin.gruner@ligero.com>\n"
+"Language-Team: German (http://www.transifex.com/ligero/LIGERO/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -744,9 +744,9 @@ msgstr "Ok"
 msgid ""
 "A filter for HTML output to add links behind a defined string. The element "
 "Image allows two input kinds. First the name of an image (e.g. faq.png). In "
-"this case the OTRS image path will be used. The second possibility is to "
+"this case the LIGERO image path will be used. The second possibility is to "
 "insert the link to the image."
-msgstr "Ein Filter zur automatischen Generierung von FAQ-Links, wenn ein Hinweis auf einen FAQ-Artikel identifiziert wird. Das Element Image erlaubt zwei Eingabeformen: Erstens der Name eines Icons (z. B. faq.png). In diesem Fall wird auf das Grafik-Verzeichnis des OTRS zugegriffen. Als zweite Möglichkeit kann man aber auch den direkten Link zur Grafik angeben (z. B. http://otrs.org/faq.png)."
+msgstr "Ein Filter zur automatischen Generierung von FAQ-Links, wenn ein Hinweis auf einen FAQ-Artikel identifiziert wird. Das Element Image erlaubt zwei Eingabeformen: Erstens der Name eines Icons (z. B. faq.png). In diesem Fall wird auf das Grafik-Verzeichnis des LIGERO zugegriffen. Als zweite Möglichkeit kann man aber auch den direkten Link zur Grafik angeben (z. B. http://ligero.org/faq.png)."
 
 #. SysConfig
 msgid "Add FAQ article"

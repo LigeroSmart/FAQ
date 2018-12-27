@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_config version="2.0" init="Application">
+<ligero_config version="2.0" init="Application">
     <Setting Name="FAQ::Agent::StateTypes" Required="1" Valid="1">
         <Description Translatable="1">List of state types which can be used in the agent interface.</Description>
         <Navigation>Frontend::Agent</Navigation>
@@ -226,7 +226,7 @@
         <Description Translatable="1">Ticket subject for approval of FAQ article.</Description>
         <Navigation>Core::FAQ::Approval</Navigation>
         <Value>
-            <Item ValueType="String">FAQ approval required for FAQ# &lt;OTRS_FAQ_NUMBER&gt;</Item>
+            <Item ValueType="String">FAQ approval required for FAQ# &lt;LIGERO_FAQ_NUMBER&gt;</Item>
         </Value>
     </Setting>
     <Setting Name="FAQ::ApprovalTicketBody" Required="1" Valid="1">
@@ -237,16 +237,16 @@
 
 a new FAQ article needs your approval before it can be published.
 
-  FAQ#   : &lt;OTRS_FAQ_NUMBER&gt;
-  Title  : &lt;OTRS_FAQ_TITLE&gt;
-  Author : &lt;OTRS_FAQ_AUTHOR&gt;
-  State  : &lt;OTRS_FAQ_STATE&gt;
+  FAQ#   : &lt;LIGERO_FAQ_NUMBER&gt;
+  Title  : &lt;LIGERO_FAQ_TITLE&gt;
+  Author : &lt;LIGERO_FAQ_AUTHOR&gt;
+  State  : &lt;LIGERO_FAQ_STATE&gt;
 
 If you want to do this, click on this link:
 
-&lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentFAQEdit;ItemID=&lt;OTRS_FAQ_ITEMID&gt;
+&lt;LIGERO_CONFIG_HttpType&gt;://&lt;LIGERO_CONFIG_FQDN&gt;/&lt;LIGERO_CONFIG_ScriptAlias&gt;index.pl?Action=AgentFAQEdit;ItemID=&lt;LIGERO_FAQ_ITEMID&gt;
 
-Your OTRS Notification Master
+Your LIGERO Notification Master
             </Item>
         </Value>
     </Setting>
@@ -832,7 +832,7 @@ Your OTRS Notification Master
         </Value>
     </Setting>
     <Setting Name="Frontend::Output::OutputFilterTextAutoLink###FAQ" Required="0" Valid="0">
-        <Description Translatable="1">A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.</Description>
+        <Description Translatable="1">A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.</Description>
         <Navigation>Frontend::Base::OutputFilter</Navigation>
         <Value>
             <Hash>
@@ -844,8 +844,8 @@ Your OTRS Notification Master
                 <Item Key="URL1">
                     <Hash>
                         <Item Key="Description" Translatable="1">FAQ</Item>
-                        <Item Key="URL">/otrs/index.pl?Action=AgentFAQZoom;ItemID=&lt;MATCH2&gt;</Item>
-                        <Item Key="Image">/otrs-web/skins/Agent/default/img/help-small.png</Item>
+                        <Item Key="URL">/ligero/index.pl?Action=AgentFAQZoom;ItemID=&lt;MATCH2&gt;</Item>
+                        <Item Key="Image">/ligero-web/skins/Agent/default/img/help-small.png</Item>
                         <Item Key="Target">_blank</Item>
                     </Hash>
                 </Item>
@@ -2778,4 +2778,4 @@ Your OTRS Notification Master
             <Item ValueType="String" ValueRegex="^\d+$">4</Item>
         </Value>
     </Setting>
-</otrs_config>
+</ligero_config>

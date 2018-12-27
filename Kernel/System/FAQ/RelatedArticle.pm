@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -326,7 +326,7 @@ sub _BuildRelatedFAQArticleList {
 Build the keywords for the given content.
 
     my $Content = $FAQObject->_BuildKeywordCounterFromContent(
-        Content => 'Some Text with a link. More text. [1] https://otrs.com/',
+        Content => 'Some Text with a link. More text. [1] https://ligero.com/',
     );
 
 Returns
@@ -380,7 +380,7 @@ sub _BuildKeywordCounterFromContent {
 Remove links from the given content.
 
     my $Content = $FAQObject->_RemoveLinksFromContent(
-        Content => 'Some Text with a link. More text. [1] https://otrs.com/',
+        Content => 'Some Text with a link. More text. [1] https://ligero.com/',
     );
 
 Returns
@@ -402,7 +402,7 @@ sub _RemoveLinksFromContent {
 
 =head1 TERMS AND CONDITIONS
 
-This software is part of the OTRS project (L<https://otrs.org/>).
+This software is part of the LIGERO project (L<https://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you

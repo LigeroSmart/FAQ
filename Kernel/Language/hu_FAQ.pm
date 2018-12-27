@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -288,8 +288,8 @@ sub Data {
     $Self->{Translation}->{'Ok'} = 'OK';
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} =
-        'Egy szűrő a HTML kimenethez, hogy hivatkozásokat adjon egy meghatározott szöveg mögé. Az Image elem kétféle bemenetet fogad. Az első a kép neve (például faq.png). Ebben az esetben az OTRS képek útvonala lesz felhasználva. A második lehetőség a képre mutató hivatkozás beszúrása.';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} =
+        'Egy szűrő a HTML kimenethez, hogy hivatkozásokat adjon egy meghatározott szöveg mögé. Az Image elem kétféle bemenetet fogad. Az első a kép neve (például faq.png). Ebben az esetben az LIGERO képek útvonala lesz felhasználva. A második lehetőség a képre mutató hivatkozás beszúrása.';
     $Self->{Translation}->{'Add FAQ article'} = 'GyIK bejegyzés hozzáadása';
     $Self->{Translation}->{'CSS color for the voting result.'} = 'CSS szín a szavazás eredményéhez.';
     $Self->{Translation}->{'Cache Time To Leave for FAQ items.'} = 'Gyorsítótár idő a GyIK elemek elhagyásához.';

@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -118,7 +118,7 @@ sub Run {
         }
     }
 
-    # TODO the JS should be moved in a own JS file with OTRS 6!
+    # TODO the JS should be moved in a own JS file with LIGERO 6!
     # inject the necessary JS into the template
     $LayoutObject->AddJSOnDocumentComplete( Code => <<"EOF");
 var QueuesEnabled = [ $QueuesEnabledStrg ],

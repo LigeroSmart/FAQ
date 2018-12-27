@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -2563,7 +2563,7 @@ sub _FAQApprovalTicketCreate {
 
     # get subject
     my $Subject = $ConfigObject->Get('FAQ::ApprovalTicketSubject');
-    $Subject =~ s{ <OTRS_FAQ_NUMBER> }{$Param{FAQNumber}}xms;
+    $Subject =~ s{ <LIGERO_FAQ_NUMBER> }{$Param{FAQNumber}}xms;
 
     # check if we can find existing open approval tickets for this FAQ article
     my @TicketIDs = $TicketObject->TicketSearch(
@@ -2643,14 +2643,14 @@ sub _FAQApprovalTicketCreate {
 
         # get body from config
         my $Body = $ConfigObject->Get('FAQ::ApprovalTicketBody');
-        $Body =~ s{ <OTRS_FAQ_CATEGORYID> }{$Param{CategoryID}}xms;
-        $Body =~ s{ <OTRS_FAQ_CATEGORY>   }{$Category}xms;
-        $Body =~ s{ <OTRS_FAQ_LANGUAGE>   }{$Language}xms;
-        $Body =~ s{ <OTRS_FAQ_ITEMID>     }{$Param{ItemID}}xms;
-        $Body =~ s{ <OTRS_FAQ_NUMBER>     }{$Param{FAQNumber}}xms;
-        $Body =~ s{ <OTRS_FAQ_TITLE>      }{$Param{Title}}xms;
-        $Body =~ s{ <OTRS_FAQ_AUTHOR>     }{$UserName}xms;
-        $Body =~ s{ <OTRS_FAQ_STATE>      }{$State{Name}}xms;
+        $Body =~ s{ <LIGERO_FAQ_CATEGORYID> }{$Param{CategoryID}}xms;
+        $Body =~ s{ <LIGERO_FAQ_CATEGORY>   }{$Category}xms;
+        $Body =~ s{ <LIGERO_FAQ_LANGUAGE>   }{$Language}xms;
+        $Body =~ s{ <LIGERO_FAQ_ITEMID>     }{$Param{ItemID}}xms;
+        $Body =~ s{ <LIGERO_FAQ_NUMBER>     }{$Param{FAQNumber}}xms;
+        $Body =~ s{ <LIGERO_FAQ_TITLE>      }{$Param{Title}}xms;
+        $Body =~ s{ <LIGERO_FAQ_AUTHOR>     }{$UserName}xms;
+        $Body =~ s{ <LIGERO_FAQ_STATE>      }{$State{Name}}xms;
 
         my %User = $UserObject->GetUserData(
             UserID => $Param{UserID},
@@ -2732,7 +2732,7 @@ sub _DeleteFromFAQCache {
 
 =head1 TERMS AND CONDITIONS
 
-This software is part of the OTRS project (L<https://otrs.org/>).
+This software is part of the LIGERO project (L<https://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you

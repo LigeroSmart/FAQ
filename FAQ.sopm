@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_package version="1.0">
+<ligero_package version="1.0">
     <Name>FAQ</Name>
     <Version>0.0.0</Version>
     <Framework Minimum="6.0.15">6.0.x</Framework>
-    <Vendor>OTRS AG</Vendor>
-    <URL>https://otrs.com/</URL>
+    <Vendor>LIGERO AG</Vendor>
+    <URL>https://ligero.com/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">The FAQ/knowledge base.</Description>
     <Description Lang="de">Die FAQ-/Wissensdatenbank.</Description>
@@ -560,7 +560,7 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to install the OTRS package FAQ.<br/>
+        You are about to install the LIGERO package FAQ.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -571,7 +571,7 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket FAQ zu installieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket FAQ zu installieren.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -582,7 +582,7 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted est&aacute; a punto de instalar el paquete FAQ de OTRS.<br/>
+        Usted est&aacute; a punto de instalar el paquete FAQ de LIGERO.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -593,7 +593,7 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az FAQ OTRS csomag telepítésére készül.<br/>
+        Ön az FAQ LIGERO csomag telepítésére készül.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -676,7 +676,7 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to upgrade the OTRS package FAQ.<br/>
+        You are about to upgrade the LIGERO package FAQ.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -687,7 +687,7 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket FAQ zu aktualisieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket FAQ zu aktualisieren.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -698,7 +698,7 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted est&aacute; apunto de actualizar el paquete FAQ de OTRS.<br/>
+        Usted est&aacute; apunto de actualizar el paquete FAQ de LIGERO.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -709,7 +709,7 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az FAQ OTRS csomag frissítésére készül.<br/>
+        Ön az FAQ LIGERO csomag frissítésére készül.<br/>
         <br/>
         <br/>
         ((enjoy))<br/>
@@ -791,4 +791,4 @@
         ((enjoy))<br/>
         <br/>
     ]]></IntroUninstall>
-</otrs_package>
+</ligero_package>

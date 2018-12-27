@@ -34,16 +34,16 @@
 <preface id="preface">
     <title>Preface</title>
     <para>
-        The FAQ Module is an OTRS extension providing an FAQ or rather a knowledge database.
+        The FAQ Module is an LIGERO extension providing an FAQ or rather a knowledge database.
     </para>
     <para>
         It facilitates speeding-up the knowledge transfer between agents or (using a public web
         interface) between organizations and their customers, therefore effectively saving time.
     </para>
     <para>
-        If you have questions regarding this document or if you need further information, please log in to our customer portal at portal.otrs.com with your OTRS ID and create a ticket.
-        You do not have an OTRS ID yet? Register
-        <ulink url="https://portal.otrs.com/otrs/customer.pl#Signup">here for free</ulink>.
+        If you have questions regarding this document or if you need further information, please log in to our customer portal at portal.ligero.com with your LIGERO ID and create a ticket.
+        You do not have an LIGERO ID yet? Register
+        <ulink url="https://portal.ligero.com/ligero/customer.pl#Signup">here for free</ulink>.
     </para>
 </preface>
 
@@ -109,7 +109,7 @@
         <title>Full-text And Quick Search</title>
         <para>
             You can execute a full-text and quick search in the entire knowledge database. You can
-            also use OTRS operators for &quot;AND&quot; or &quot;OR&quot; relations.
+            also use LIGERO operators for &quot;AND&quot; or &quot;OR&quot; relations.
         </para>
     </section>
     <section>
@@ -134,10 +134,10 @@
          </para>
     </section>
     <section>
-        <title>Inserting FAQ Articles In OTRS Replies</title>
+        <title>Inserting FAQ Articles In LIGERO Replies</title>
         <para>
             You can insert FAQ articles (including images and attachments) in new tickets or replies
-            you generate in OTRS.
+            you generate in LIGERO.
          </para>
     </section>
     <section>
@@ -190,39 +190,39 @@
         </para>
         <para>
             from:
-            <ulink url="http://localhost/otrs/index.pl?Action=AdminFAQExplorer;CategoryID=1">
-                    http://localhost/otrs/index.pl?Action=AdminFAQExplorer;CategoryID=1
+            <ulink url="http://localhost/ligero/index.pl?Action=AdminFAQExplorer;CategoryID=1">
+                    http://localhost/ligero/index.pl?Action=AdminFAQExplorer;CategoryID=1
             </ulink>
         </para>
         <para>
             to:
-            <ulink url="http://localhost/otrs/index.pl?Action=AdminFAQExplorer;Category=Misc">
-                http://localhost/otrs/index.pl?Action=AdminFAQExplorer;Category=Misc
+            <ulink url="http://localhost/ligero/index.pl?Action=AdminFAQExplorer;Category=Misc">
+                http://localhost/ligero/index.pl?Action=AdminFAQExplorer;Category=Misc
             </ulink>
         </para>
         <para>
             Other Examples:
         </para>
         <para>
-            <ulink url="http://localhost/otrs/index.pl?Action=AdminFAQExplorer;Category=My%20Category">
-                http://localhost/otrs/index.pl?Action=AdminFAQExplorer;Category=My%20Category
+            <ulink url="http://localhost/ligero/index.pl?Action=AdminFAQExplorer;Category=My%20Category">
+                http://localhost/ligero/index.pl?Action=AdminFAQExplorer;Category=My%20Category
             </ulink>
         </para>
         <para>
-            <ulink url="http://localhost/otrs/index.pl?Action=CustomerFAQExplorer;Category=GranParent::Parent::Son">
-                http://localhost/otrs/index.pl?Action=CustomerFAQExplorer;Category=GrandParent::Parent::Son
+            <ulink url="http://localhost/ligero/index.pl?Action=CustomerFAQExplorer;Category=GranParent::Parent::Son">
+                http://localhost/ligero/index.pl?Action=CustomerFAQExplorer;Category=GrandParent::Parent::Son
             </ulink>
         </para>
         <para>
-            <ulink url="http://localhost/otrs/index.pl?Action=PublicFAQExplorer;Category=My%20Category::SubCategory">
-                http://localhost/otrs/index.pl?Action=PublicFAQExplorer;Category=My%20Category::Subcategory
+            <ulink url="http://localhost/ligero/index.pl?Action=PublicFAQExplorer;Category=My%20Category::SubCategory">
+                http://localhost/ligero/index.pl?Action=PublicFAQExplorer;Category=My%20Category::Subcategory
             </ulink>
         </para>
     </section>
     <section>
         <title>Generic Interface FAQ Connector For Public Interface</title>
         <para>
-            Allow you to use the functions for FAQ public interface via OTRS Generic Interface by
+            Allow you to use the functions for FAQ public interface via LIGERO Generic Interface by
             adding the following operations.
         </para>
         <itemizedlist mark="round">
@@ -296,7 +296,7 @@
     <title>System Requirements</title>
     <section>
         <title>Framework</title>
-        <para>The following OTRS framework is required:</para>
+        <para>The following LIGERO framework is required:</para>
         <para>$Framework</para>
     </section>
     <section>
@@ -339,8 +339,8 @@
             (please note that you need to be in the "admin" group).
         </para>
         <para>
-            <ulink url="http://localhost/otrs/index.pl?Action=AdminPackageManager">
-                http://localhost/otrs/index.pl?Action=AdminPackageManager
+            <ulink url="http://localhost/ligero/index.pl?Action=AdminPackageManager">
+                http://localhost/ligero/index.pl?Action=AdminPackageManager
             </ulink>
         </para>
     </section>
@@ -348,11 +348,11 @@
         <title>Command Line</title>
         <para>
             Whenever you cannot use the Admin Interface for whatever reason, you may use the
-            following command line tool ("bin/otrs.Console.pl Admin::Package::Install") instead.
+            following command line tool ("bin/ligero.Console.pl Admin::Package::Install") instead.
         </para>
         <para>
             <screen>
-shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
+shell> bin/ligero.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
             </screen>
         </para>
     </section>
@@ -1244,7 +1244,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
         <section>
             <title>Frontend::Output::OutputFilterTextAutoLink###FAQ.</title>
             <para>Navigation: Frontend::Base::OutputFilter.</para>
-            <para>A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.</para>
+            <para>A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.</para>
         </section>
         <section>
             <title>Frontend::Search###FAQ.</title>
@@ -1465,7 +1465,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
     <section>
         <title>Approval function</title>
         <para>
-            The OTRS FAQ has an approval feature. If you activate the approval feature all newly
+            The LIGERO FAQ has an approval feature. If you activate the approval feature all newly
             created FAQs also create a new ticket in a predefined queue. The persons who need to
             approve the FAQ entries can then act on these tickets and approve the FAQ articles if
             they see fit. As long as the article has not been approved the article will not be
@@ -1497,7 +1497,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
             <tbody>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_CATEGORY&gt;
+                  &lt;LIGERO_FAQ_CATEGORY&gt;
                 </entry>
                 <entry>
                   Category name of the FAQ article
@@ -1505,7 +1505,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_CATEGORYID&gt;
+                  &lt;LIGERO_FAQ_CATEGORYID&gt;
                 </entry>
                 <entry>
                   Category ID of the FAQ article
@@ -1513,7 +1513,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_LANGUAGE&gt;
+                  &lt;LIGERO_FAQ_LANGUAGE&gt;
                 </entry>
                 <entry>
                   Language of the FAQ article
@@ -1521,7 +1521,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_ITEMID&gt;
+                  &lt;LIGERO_FAQ_ITEMID&gt;
                 </entry>
                 <entry>
                   Item ID of the FAQ article
@@ -1529,7 +1529,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_NUMBER&gt;
+                  &lt;LIGERO_FAQ_NUMBER&gt;
                 </entry>
                 <entry>
                   FAQ Number of the FAQ article
@@ -1537,7 +1537,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_TITLE&gt;
+                  &lt;LIGERO_FAQ_TITLE&gt;
                 </entry>
                 <entry>
                   Title
@@ -1545,7 +1545,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_AUTHOR&gt;
+                  &lt;LIGERO_FAQ_AUTHOR&gt;
                 </entry>
                 <entry>
                   Author name
@@ -1553,7 +1553,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
               </row>
               <row>
                 <entry>
-                  &lt;OTRS_FAQ_STATE&gt;
+                  &lt;LIGERO_FAQ_STATE&gt;
                 </entry>
                 <entry>
                   State (visibility) of the FAQ article
@@ -1566,7 +1566,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
     <section>
         <title>Related article function</title>
         <para>
-            The OTRS FAQ package has an related article feature for the customer ticket
+            The LIGERO FAQ package has an related article feature for the customer ticket
             creation. The feature is activated by default, but the functionality can be deactivated
             by with the following setting: 'FAQ::Customer::RelatedArticles::Enabled'.
         </para>
@@ -1642,7 +1642,7 @@ shell> bin/otrs.Console.pl Admin::Package::Install /path/to/$Name-$Version.opm
                 <para>
                     There are tree possible FAQ states: "internal": only agents can see the FAQ
                     article, "external": agents and registered customer can see the FAQ article and
-                    "public": this FAQ articles are accessible from the OTRS public interface.
+                    "public": this FAQ articles are accessible from the LIGERO public interface.
                 </para>
                 <para>
                     By default the system has the Category "Misc" and the Languages "en" for English
@@ -1829,27 +1829,27 @@ Result for the collection (FAQArticleID => Calculated Quantifier):
             command on the command line:
         </para>
         <screen>
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test FAQ --test FAQSearch --test FAQSearch/InConditionGet
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --directory FAQ
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test GenericInterface/FAQConnector
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test Console/Command/Admin/FAQ/Import --test Console/Command/Maint/FAQ/ContentTypeSet
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test UpgradeLowerThan5092
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test FAQ --test FAQSearch --test FAQSearch/InConditionGet
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --directory FAQ
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test GenericInterface/FAQConnector
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test Console/Command/Admin/FAQ/Import --test Console/Command/Maint/FAQ/ContentTypeSet
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test UpgradeLowerThan5092
         </screen>
         <para>Selenium unit tests</para>
         <para>
             To run the Selenium unit tests, make sure you have a complete Selenium environment setup in your Kernel/Config.pm file and a running a WebDriver.
         </para>
         <screen>
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test AgentFAQExplorer --test AgentFAQLanguage --test AgentFAQLinkObject --test AgentFAQPrint --test AgentFAQSearch --test AgentFAQZoom --test Agent/FAQ/RelatedArticles
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test CustomerFAQExplorer --test CustomerFAQPrint --test CustomerFAQSearch --test CustomerFAQZoom --test Customer/FAQ/RelatedArticles
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test PublicFAQExplorer --test PublicFAQPrint --test PublicFAQRSS --test PublicFAQSearch --test PublicFAQZoom
-shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test Dashboard/FAQ --test FAQJournalOverview/Small --test FAQMenu/Generic --test FAQOverview/Small --test HeaderMeta/AgentFAQSearch --test HeaderMeta/CustomerFAQSearch --test HeaderMeta/PublicFAQSearch --test LinkObject/FAQ
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test AgentFAQExplorer --test AgentFAQLanguage --test AgentFAQLinkObject --test AgentFAQPrint --test AgentFAQSearch --test AgentFAQZoom --test Agent/FAQ/RelatedArticles
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test CustomerFAQExplorer --test CustomerFAQPrint --test CustomerFAQSearch --test CustomerFAQZoom --test Customer/FAQ/RelatedArticles
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test PublicFAQExplorer --test PublicFAQPrint --test PublicFAQRSS --test PublicFAQSearch --test PublicFAQZoom
+shell> perl bin/ligero.Console.pl Dev::UnitTest::Run --test Dashboard/FAQ --test FAQJournalOverview/Small --test FAQMenu/Generic --test FAQOverview/Small --test HeaderMeta/AgentFAQSearch --test HeaderMeta/CustomerFAQSearch --test HeaderMeta/PublicFAQSearch --test LinkObject/FAQ
         </screen>
         <para>Run all available unit tests</para>
         <para>
             To run all available unit tests, use the following command on the command line:
         </para>
-        <screen>shell> perl bin/otrs.Console.pl Dev::UnitTest::Run</screen>
+        <screen>shell> perl bin/ligero.Console.pl Dev::UnitTest::Run</screen>
     </section>
 </chapter>
 
@@ -1881,7 +1881,7 @@ shell> perl bin/otrs.Console.pl Dev::UnitTest::Run --test Dashboard/FAQ --test F
         </para>
         <para>
             <screen>
-shell> bin/otrs.Console.pl Admin::WebService::Add --name GenericInterfaceFAQConnector --source-path scripts/webservices/GenericInterfaceFAQConnector.yaml
+shell> bin/ligero.Console.pl Admin::WebService::Add --name GenericInterfaceFAQConnector --source-path scripts/webservices/GenericInterfaceFAQConnector.yaml
             </screen>
         </para>
         <para>
@@ -1889,8 +1889,8 @@ shell> bin/otrs.Console.pl Admin::WebService::Add --name GenericInterfaceFAQConn
             interface in the next URL using the 'Import web service' button on the left side bar.
         </para>
         <para>
-            <ulink url="http://localhost/otrs/index.pl?Action=AdminGenericInterfaceWebservice;Subaction=Add">
-                http://localhost/otrs/index.pl?Action=AdminGenericInterfaceWebservice;Subaction=Add
+            <ulink url="http://localhost/ligero/index.pl?Action=AdminGenericInterfaceWebservice;Subaction=Add">
+                http://localhost/ligero/index.pl?Action=AdminGenericInterfaceWebservice;Subaction=Add
             </ulink>
         </para>
         <para>
@@ -1923,7 +1923,7 @@ Provider:
       Encoding: UTF-8
       Endpoint: ''
       MaxLength: 10000000
-      NameSpace: http://www.otrs.org/FAQConnector/
+      NameSpace: http://www.ligero.org/FAQConnector/
       SOAPAction: ''
     Type: HTTP::SOAP
 RemoteSystem: ''
@@ -1931,7 +1931,7 @@ RemoteSystem: ''
             </screen>
         </para>
         <para>
-            In order to use the web service you need to use an new interface in OTRS.
+            In order to use the web service you need to use an new interface in LIGERO.
             As for agents you use index.pl and for customers you use customer.pl, for web
             services you use "nph-genericinterface.pl".
         </para>
@@ -1949,7 +1949,7 @@ RemoteSystem: ''
         </para>
         <para>
             <screen>
-shell> bin/otrs.Console.pl Admin::WebService::List
+shell> bin/ligero.Console.pl Admin::WebService::List
             </screen>
         </para>
         <para>
@@ -1957,12 +1957,12 @@ shell> bin/otrs.Console.pl Admin::WebService::List
             follows:
         </para>
         <para>
-            <ulink url="http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericFAQConnector">
-                http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericFAQConnector
+            <ulink url="http://localhost/ligero/nph-genericinterface.pl/Webservice/GenericFAQConnector">
+                http://localhost/ligero/nph-genericinterface.pl/Webservice/GenericFAQConnector
             </ulink>
             (by name, recommended) or
-            <ulink url="http://localhost/otrs/nph-genericinterface.pl/WebserviceID/1">
-                http://localhost/otrs/nph-genericinterface.pl/WebserviceID/1
+            <ulink url="http://localhost/ligero/nph-genericinterface.pl/WebserviceID/1">
+                http://localhost/ligero/nph-genericinterface.pl/WebserviceID/1
             </ulink>
             (by ID).
         </para>
@@ -1978,11 +1978,11 @@ shell> bin/otrs.Console.pl Admin::WebService::List
     <title>Generic Interface FAQ Connector API</title>
     <para>
         For the following examples uses SOAP XML data structures since HTTP::SOAP is the default
-        transport for Generic Interface Operations and can be used with otrs.SOAPRequest.pl.
+        transport for Generic Interface Operations and can be used with ligero.SOAPRequest.pl.
     </para>
     <para>
-        otrs.SOAPRequest.pl is a simple Perl script to test the OTRS Generic Interface, the code
-        can be found in the OTRS administration manual.
+        ligero.SOAPRequest.pl is a simple Perl script to test the LIGERO Generic Interface, the code
+        can be found in the LIGERO administration manual.
     </para>
     <section>
         <title>LanguageList</title>

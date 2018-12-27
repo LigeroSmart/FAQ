@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # Copyright (C) 2012 FCCN - Rui Francisco <rui.francisco@fccn.pt>
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -174,7 +174,7 @@ sub Data {
     # Template: PublicFAQZoom
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} = 'Um filtro de saída HTML para adicionar links para atrás uma seqüência definida. O elemento de imagem permite dois tipos de entrada. Primeiro, o nome da imagem (ex:faq.png). Neste caso, o caminho da imagem OTRS será utilizado. A segunda permite inserir o link para a imagem.';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} = 'Um filtro de saída HTML para adicionar links para atrás uma seqüência definida. O elemento de imagem permite dois tipos de entrada. Primeiro, o nome da imagem (ex:faq.png). Neste caso, o caminho da imagem LIGERO será utilizado. A segunda permite inserir o link para a imagem.';
     $Self->{Translation}->{'CSS color for the voting result.'} = 'Côr CSS para o resultado da votação.';
     $Self->{Translation}->{'Category Management'} = 'Gestão de Categorias';
     $Self->{Translation}->{'Decimal places of the voting result.'} = 'Casas decimais do resultado da votação.';

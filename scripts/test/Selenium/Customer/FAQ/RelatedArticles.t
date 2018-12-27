@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -162,7 +162,7 @@ $Selenium->RunTest(
             "Found message for no related FAQ article",
         );
 
-        # Test case for bug#12900 ( https://bugs.otrs.org/show_bug.cgi?id=12900 ).
+        # Test case for bug#12900 ( https://bugs.ligero.org/show_bug.cgi?id=12900 ).
         # Create new category which is subcategory of default 'Misc' category.
         my $RandomID      = $Helper->GetRandomID();
         my $SubCategoryID = $FAQObject->CategoryAdd(

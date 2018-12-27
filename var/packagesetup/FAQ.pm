@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -920,10 +920,10 @@ sub _SetContentType {
     return $Kernel::OM->Get('Kernel::System::FAQ')->FAQContentTypeSet();
 }
 
-sub _GetOTRS5ConfigBackup {
+sub _GetLIGERO5ConfigBackup {
     my $Config = {};
 
-    my $FileClass = 'Kernel::Config::Backups::ZZZAutoOTRS5';
+    my $FileClass = 'Kernel::Config::Backups::ZZZAutoLIGERO5';
     delete $INC{$FileClass};
 
     if (
@@ -942,7 +942,7 @@ sub _GetOTRS5ConfigBackup {
 sub _MigratePermissions {
     my ( $Self, %Param ) = @_;
 
-    my $OldConfig = $Self->_GetOTRS5ConfigBackup();
+    my $OldConfig = $Self->_GetLIGERO5ConfigBackup();
     my $NewConfig = $Kernel::OM->Get('Kernel::Config');
 
     my $GetConfig = sub {
@@ -1218,7 +1218,7 @@ sub _MigratePermissions {
 
 =head1 TERMS AND CONDITIONS
 
-This software is part of the OTRS project (L<https://otrs.org/>).
+This software is part of the LIGERO project (L<https://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you

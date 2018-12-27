@@ -4,12 +4,12 @@
 .DS_Store
 Kernel/Language/*.pm.old
 
-# OTRSCodePolicy
+# LIGEROCodePolicy
 .tidyall.d
 perltidy.LOG.old
-bin/otrs.CodePolicy.pl
+bin/ligero.CodePolicy.pl
 TidyAll
 Kernel/cpan-lib/Pod/Strip.pm
 scripts/install-git-hooks.pl
 scripts/uninstall-git-hooks.pl
-OTRSCodePolicy*
+LIGEROCodePolicy*

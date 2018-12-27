@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -60,7 +60,7 @@ $Selenium->RunTest(
             push @FAQs, \%FAQ;
         }
 
-        # set one FAQ as invalid see bug bug#11498 (http://bugs.otrs.org/show_bug.cgi?id=11498)ShowInvalidFAQItems
+        # set one FAQ as invalid see bug bug#11498 (http://bugs.ligero.org/show_bug.cgi?id=11498)ShowInvalidFAQItems
         my $InvalidFAQTitle = "Invalid $FAQs[0]->{FAQTitle}";
         my $Success         = $FAQObject->FAQUpdate(
             ItemID      => $FAQs[0]->{ItemID},

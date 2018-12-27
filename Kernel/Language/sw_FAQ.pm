@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -288,8 +288,8 @@ sub Data {
     $Self->{Translation}->{'Ok'} = 'Sawa';
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} =
-        'Kichujio cha matokeo ya HTML ili kuongeza viungo kwa tungo zilizo fafanuliwa. Sura ya elemnti hii inaruhusu maingizo ya aina mbili. Kwanza jinala sura (mf. faq.png). Kwa kesi hii sura ya njia ya OTRS itatumika. Njia ya pili ni kuingiza kiungo cha hiyo sura.';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} =
+        'Kichujio cha matokeo ya HTML ili kuongeza viungo kwa tungo zilizo fafanuliwa. Sura ya elemnti hii inaruhusu maingizo ya aina mbili. Kwanza jinala sura (mf. faq.png). Kwa kesi hii sura ya njia ya LIGERO itatumika. Njia ya pili ni kuingiza kiungo cha hiyo sura.';
     $Self->{Translation}->{'Add FAQ article'} = '';
     $Self->{Translation}->{'CSS color for the voting result.'} = 'Rangi ya CSS kwa matokeo ya kura';
     $Self->{Translation}->{'Cache Time To Leave for FAQ items.'} = 'Muda wa maswali yaliyyoulizwa mara myingi kufutika kutoka kwenye kumbukumbu';

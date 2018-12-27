@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -288,8 +288,8 @@ sub Data {
     $Self->{Translation}->{'Ok'} = 'У реду';
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} =
-        'Филтер за „HTML” излаз за додавање везе иза дефинисаног низа знакова. Елемент Слика дозвољава два начина уноса. Први је назив слике (нпр faq.png). у овом случају биће коришћена „OTRS” путања до слике.  Друга могућност је унос везе до слике.';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} =
+        'Филтер за „HTML” излаз за додавање везе иза дефинисаног низа знакова. Елемент Слика дозвољава два начина уноса. Први је назив слике (нпр faq.png). у овом случају биће коришћена „LIGERO” путања до слике.  Друга могућност је унос везе до слике.';
     $Self->{Translation}->{'Add FAQ article'} = 'Додај FAQ чланак';
     $Self->{Translation}->{'CSS color for the voting result.'} = '„CSS” боја за резултат гласања.';
     $Self->{Translation}->{'Cache Time To Leave for FAQ items.'} = 'Време ослобађања кеша за FAQ ставке.';

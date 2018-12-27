@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligeroro.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -288,8 +288,8 @@ sub Data {
     $Self->{Translation}->{'Ok'} = 'Ok';
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} =
-        'Un filtro per l\'output HTML per aggiungere collegamenti ad una stringa definita. L\'elemento Immagine permette due tipi di ingresso. Primo il nome di un\'immagine (ad esempio faq.png). In questo caso verrà utilizzato il percorso delle immagini di OTRS. La seconda possibilità è quella di inserire il collegamento all\'immagine.';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} =
+        'Un filtro per l\'output HTML per aggiungere collegamenti ad una stringa definita. L\'elemento Immagine permette due tipi di ingresso. Primo il nome di un\'immagine (ad esempio faq.png). In questo caso verrà utilizzato il percorso delle immagini di LIGERO. La seconda possibilità è quella di inserire il collegamento all\'immagine.';
     $Self->{Translation}->{'Add FAQ article'} = '';
     $Self->{Translation}->{'CSS color for the voting result.'} = 'Colore CSS per il risultato del voto.';
     $Self->{Translation}->{'Cache Time To Leave for FAQ items.'} = 'Tempo di durata nella Cache delle voci di FAQ';

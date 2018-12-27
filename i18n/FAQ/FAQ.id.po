@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Farhan Rinaldi Gunawan <farhan.rg@gmail.com>, 2015
-# OTRS SDN BHD <otrssdnbhd@gmail.com>, 2016
-# OTRS SDN BHD <otrssdnbhd@gmail.com>, 2016
+# LIGERO SDN BHD <ligerosdnbhd@gmail.com>, 2016
+# LIGERO SDN BHD <ligerosdnbhd@gmail.com>, 2016
 # Sofyan Arifin <sofyanarifin39@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: OTRS\n"
+"Project-Id-Version: LIGERO\n"
 "POT-Creation-Date: 2018-11-05 19:59+0000\n"
 "PO-Revision-Date: 2018-11-05 20:00+0000\n"
-"Last-Translator: OTRS SDN BHD <otrssdnbhd@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/otrs/OTRS/language/id/)\n"
+"Last-Translator: LIGERO SDN BHD <ligerosdnbhd@gmail.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/ligero/LIGERO/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -733,9 +733,9 @@ msgstr "Ok"
 msgid ""
 "A filter for HTML output to add links behind a defined string. The element "
 "Image allows two input kinds. First the name of an image (e.g. faq.png). In "
-"this case the OTRS image path will be used. The second possibility is to "
+"this case the LIGERO image path will be used. The second possibility is to "
 "insert the link to the image."
-msgstr "Sebuah filter untuk output HTML untuk menambahkan tautan terkait string yang ditentukan. Dua buah masukan diperkenankan untuk Elemen Gambar. Pertama nama dari gambar (contoh: faq.png). Pada kasus ini path gambar OTRS yang digunakan. Kemungkinan kedua adalah memasukkan tautan ke dalam gambar."
+msgstr "Sebuah filter untuk output HTML untuk menambahkan tautan terkait string yang ditentukan. Dua buah masukan diperkenankan untuk Elemen Gambar. Pertama nama dari gambar (contoh: faq.png). Pada kasus ini path gambar LIGERO yang digunakan. Kemungkinan kedua adalah memasukkan tautan ke dalam gambar."
 
 #. SysConfig
 msgid "Add FAQ article"

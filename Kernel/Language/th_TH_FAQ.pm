@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -288,8 +288,8 @@ sub Data {
     $Self->{Translation}->{'Ok'} = 'โอเค';
 
     # SysConfig
-    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the OTRS image path will be used. The second possibility is to insert the link to the image.'} =
-        'ตัวกรองสำหรับการแสดงผล HTMLเพื่อเพิ่มการเชื่อมโยงที่อยู่เบื้องหลังของอักขระที่กำหนดไว้ องค์ประกอบของภาพที่จะช่วยให้สามารถป้อนข้อมูลสองชนิดได้ หนึ่งคือชื่อของภาพ (เช่น faq.png)ในกรณีนี้เส้นทางของภาพOTRS จะถูกนำมาใช้ สองคือการแทรกการเชื่อมโยงไปยังภาพ';
+    $Self->{Translation}->{'A filter for HTML output to add links behind a defined string. The element Image allows two input kinds. First the name of an image (e.g. faq.png). In this case the LIGERO image path will be used. The second possibility is to insert the link to the image.'} =
+        'ตัวกรองสำหรับการแสดงผล HTMLเพื่อเพิ่มการเชื่อมโยงที่อยู่เบื้องหลังของอักขระที่กำหนดไว้ องค์ประกอบของภาพที่จะช่วยให้สามารถป้อนข้อมูลสองชนิดได้ หนึ่งคือชื่อของภาพ (เช่น faq.png)ในกรณีนี้เส้นทางของภาพLIGERO จะถูกนำมาใช้ สองคือการแทรกการเชื่อมโยงไปยังภาพ';
     $Self->{Translation}->{'Add FAQ article'} = '';
     $Self->{Translation}->{'CSS color for the voting result.'} = 'สี CSS สำหรับผลการโหวต';
     $Self->{Translation}->{'Cache Time To Leave for FAQ items.'} = 'เวลาแคชที่จะปล่อยให้สำหรับรายการFAQ';
